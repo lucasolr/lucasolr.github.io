@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html body  {
+  height: 100%;
+}
+
+body  {
+  font-family:'Montserrat', sans-serif;
+  font-size: 10px;
+  background: rgb(0,1,1);
+  background: linear-gradient(176deg, rgba(0,1,1,1) 51%, rgba(20,43,20,1) 100%, rgba(45,66,48,1) 100%);
+  color: #FFF;
+}
+.perfil  {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 80px;
+  border: 2px solid rgb(24, 185, 32);
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgb(37, 199, 110);
+}
+
+h1  {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+h2  {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.social   {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.social li img { 
+  width: 33px;
+}
+
+.links-social   {
+  list-style: none;
+}
+
+.links-social li {
+  margin: 25px 20px;
+}
+
+.links-social li  a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: block;
+  color: rgb(27, 197, 84);
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(89, 197, 116);
+}
+
+.links-social li a span {
+  
+}
+
+.links-social li a span {
+  margin-top: 10px;
+  display: block;
+  color: rgb(27, 197, 84);
+
+}
+
+.links-social li a.twitter  {
+  color: aqua;
+}
+
+.links-social li a.workana    {
+  color: #FFF;
+}
+
+.links-social li a.github     {
+  color: rgb(73, 59, 59);
+}
+
+.links-social li a.reddit     {
+  color: rgb(209, 76, 24);
+}
+
+.links-contatos  {
+  list-style: none;
+}
+
+.links-contatos li  {
+  margin: 25px 20px;
+}
+
+.links-contatos li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: block;
+  color: rgb(27, 197, 84);
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(89, 197, 116);
+}
+
+.links-contatos li a span   {
+  margin-top: 10px;
+  display: block;
+  color: rgb(27, 197, 84);
+}
+
+.links-contatos li a.whatsapp   {
+  color: rgb(35, 245, 46);
+}
+
+.links-contatos li a.telegram   {
+  color: rgb(61, 15, 146);
+}
+.footer   {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  background: rgb(63, 58, 58);
+}
