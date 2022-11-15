@@ -67,10 +67,6 @@ h2  {
 }
 
 .links-social li a span {
-  
-}
-
-.links-social li a span {
   margin-top: 10px;
   display: block;
   color: rgb(27, 197, 84);
@@ -129,5 +125,5 @@ h2  {
   padding: 10px;
   text-align: center;
   font-size: 15px;
-  background: rgb(36, 32, 32);
+  background: rgb(46, 38, 38);
 }
